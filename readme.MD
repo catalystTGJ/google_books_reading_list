@@ -54,6 +54,7 @@ Note: It is required to press the enter key to confirm a choice.
 15. Test the application with many queries, many entries into the reading list, many views of the query results and view results.
 16. Refactor the code to DRY code!
 17. Test more!
+18. NOTE: Testing is done throughout all the various steps of this process to ensure that things are working along the way.
 
 
 
