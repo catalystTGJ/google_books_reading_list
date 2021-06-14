@@ -5,11 +5,7 @@
 - [Behavior](#behavior)
 - [My 50K foot process](#my-50k-foot-process)
 
-
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
 
 
 ## Installation
@@ -23,7 +19,7 @@ Otherwise, pip install requests
 ## Usage
 
 1. Ensure that an appropriate virtual environment is activated that has "requests" library installed.
-2. To launch, simply type python3 gb_read.py within a terminal window, while within the folder than contains they .py file.
+2. To launch, simply type python3 gb_read.py within a terminal window, while within the folder than contains the .py file.
 3. The letters 'N', 'Q', 'R', & 'X' can be used for "New" query, "Query" results, "Reading" list, and Exit.
 4. After a query has been performed the number keys can be used to enter a line number to select a book from the query.
 
@@ -32,10 +28,12 @@ Note: It is required to press the enter key to confirm a choice.
 ## Behavior
 
 1. The script will perform a query against google's books api, whenever some characters are entered during a query function.
-2. It will perform a query if no characters are entered.
+2. It will not perform a query, if no characters are entered.
 3. The query results of the query will be filtered for duplicates, based on the uniqueness of the information of the specific columns included.
 4. The reading list is also protected from addition of duplicate items.
 5. Column widths are dynamically determined based on the data being presented for both query results and the reading list.
+6. The current columns included in the query results and reading list are: Title, Publisher, and Authors
+7. Authors can be one or more names. When more than one, the names will displayed as a simple comma separated string of text.
 
 ## My 50K foot process:
 
