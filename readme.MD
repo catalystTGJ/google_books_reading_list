@@ -1,3 +1,7 @@
+Files:
+
+
+
 Installation:
 
 source venv/bin/activate
@@ -22,6 +26,7 @@ My 50K foot process:
 12.) refactor the code for redundant code blocks, such as duplicate data checking
 13.) refactor the code to streamline the main loop's flow and the various input/output arrangements.
 14.) test the application with many queries, many entries into the reading list, many views of the query results and view results.
+15.) refactor the code to DRY code!
 
 
 
