@@ -24,14 +24,14 @@ Otherwise, pip install requests
 3. The letters 'N', 'Q', 'R', & 'X' can be used for "New" query, "Query" results, "Reading" list, and Exit.
 4. After a query has been performed the number keys can be used to enter a line number to select a book from the query.
 
+Note: It is required to press the enter key to confirm a choice.
+
 ## Testing
 
 1. Ensure that pytest is installed into the virtual environment.
 2. pip install pytest
 3. Ensure that the last 10 lines in the gb_read.py are commented out.
 4. pytest while in the directory should execute test_gb_read.py
-
-Note: It is required to press the enter key to confirm a choice.
 
 ## Behavior
 
