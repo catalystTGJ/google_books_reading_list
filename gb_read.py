@@ -174,13 +174,13 @@ class Books:
 # Note: During unit testing, it will be necessary to comment out the below lines:
 
 # instantiate both required objects here
-# books = Books()
-# io = Io()
+books = Books()
+io = Io()
 
-# # We'll loop until input becomes "X".
-# while io.command.upper() != 'X':
-#     os.system('clear')
-#     io.show_list(books)
-#     io.input_command()
-#     io.evaluate_command(books)
-#     io.print_footer_message_wait()
+# We'll loop until input becomes "X".
+while io.command.upper() != 'X':
+    os.system('clear')
+    io.show_list(books)
+    io.input_command()
+    io.evaluate_command(books)
+    io.print_footer_message_wait()
