@@ -70,7 +70,7 @@ Note: It is required to press the enter key to confirm a choice.
 22. Refactor the code to address edge case detected in testing. correction for column widths where the data length was shorter than the header length, which could lead to misalignment.
 23. developed test_gb_read.py file to support testing the methods that exist within the two classes.
 24. Separation of inputs and outputs was necessary to accommodate testing.
-25. NOTE: For testing, it is necessary to comment out the last 8 lines of the gb_read.py file.
+25. NOTE: For testing, it is necessary to comment out the last 10 lines of the gb_read.py file.
 
 
 
