@@ -2,6 +2,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#testing)
 - [Behavior](#behavior)
 - [My 50K foot process](#my-50k-foot-process)
 
@@ -22,6 +23,13 @@ Otherwise, pip install requests
 2. To launch, simply type python3 gb_read.py within a terminal window, while within the folder than contains the .py file.
 3. The letters 'N', 'Q', 'R', & 'X' can be used for "New" query, "Query" results, "Reading" list, and Exit.
 4. After a query has been performed the number keys can be used to enter a line number to select a book from the query.
+
+## Testing
+
+1. Ensure that pytest is installed into the virtual environment.
+2. pip install pytest
+3. Ensure that the last 10 lines in the gb_read.py are commented out.
+4. pytest while in the directory should execute test_gb_read.py
 
 Note: It is required to press the enter key to confirm a choice.
 
@@ -55,6 +63,14 @@ Note: It is required to press the enter key to confirm a choice.
 16. Refactor the code to DRY code!
 17. Test more!
 18. NOTE: Testing is done throughout all the various steps of this process to ensure that things are working along the way.
+
+19. Refactor the code to support unit testing with pytest. This involved moving the main loop code block into the Io class.
+20. Refactor the code to utilize "self" within the two classes. This evolved from just moving the variables into the classes to redesigning the classes to support oop.
+21. Refactor the code to address edge case detected in testing. addressed confusing number selection which was possible while viewing Reading list.
+22. Refactor the code to address edge case detected in testing. correction for column widths where the data length was shorter than the header length, which could lead to misalignment.
+23. developed test_gb_read.py file to support testing the methods that exist within the two classes.
+24. Separation of inputs and outputs was necessary to accommodate testing.
+25. NOTE: For testing, it is necessary to comment out the last 8 lines of the gb_read.py file.
 
 
 
